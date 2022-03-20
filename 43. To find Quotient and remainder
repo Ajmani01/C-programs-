@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{int num,r,num1,num2;
+    printf("KIRTIVARDHAN AJMANI");
+    printf("\n Enter the number");
+    scanf("%d",&num);
+    printf("Enter the number");
+    scanf("%d",&r);
+    num1=num%r;
+    printf("The remainder is %d\n",num1);
+    num2=num/r;
+    printf("The quotient is %d ",num2);
+    
+
+    return 0;
+}
