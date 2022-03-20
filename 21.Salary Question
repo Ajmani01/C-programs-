@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{ int sales, salary , salary2;
+    printf("KIRTIVARDHAN AJMANI");
+    printf("\n Enter the sales");
+    scanf("%d",&sales);
+    if(sales>=100000)
+        salary=3000+(0.2*3000)+(1.10*3000)+500+(0.1*sales)+500;
+        {
+            printf("\n The salary would be %d",salary);
+        }
+        if(salary2<100000)
+        salary2=3000+(0.2*3000)+(1.10*3000)+500+(0.05*sales)+200;
+        {
+            printf("\n The salary is %d",salary2);
+        }
+        
+    
+
+    return 0;
+}
+
