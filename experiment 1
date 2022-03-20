@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello my name is Kirti Vardhan Ajmani\n ");
+    printf("Hello World");
+
+    return 0;
+}
