@@ -1,0 +1,22 @@
+
+
+#include <stdio.h>
+
+int main()
+{ int num,a=1,fact=1;
+    printf("KIRTIVARDHAN AJMANI");
+    printf("\n Enter the value ");
+    scanf("%d",&num);
+    while(a<=num)
+    {
+        printf("%d*",a);
+        fact*=a;
+        a++;
+    }
+    printf("\n");
+    printf("%d",fact);
+
+    return 0;
+}
+
+
