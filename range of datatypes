@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<limits.h>
+#include<float.h>
+
+int main()
+{
+    printf("KirtiVardhan ajmani\n");
+    printf("The Range of Integer is %d to %d\n",INT_MIN,INT_MAX);
+    printf("The range of Character is %d to %d",CHAR_MIN,CHAR_MAX);
+
+    return 0;
+}
